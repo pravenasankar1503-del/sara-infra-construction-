@@ -1,0 +1,23 @@
+<svg viewBox="0 0 296 364" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#004593">
+    <!-- Top Inverted L -->
+    <path d="M 46 24 H 284 V 178 H 246 V 62 H 46 Z" />
+    <!-- S-R Geometric Monogram Body -->
+    <path d="M 46 88
+  H 216
+  V 178
+  L 280.8 340
+  H 236.8
+  L 172 178
+  V 126
+  H 105.2
+  L 190.8 340
+  H 12
+  V 228
+  H 50
+  V 302
+  H 131.6
+  L 46 88
+  Z" />
+  </g>
+</svg>

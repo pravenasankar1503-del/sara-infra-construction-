@@ -1,0 +1,26 @@
+<svg viewBox="0 0 240 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#0047AB">
+    <!-- 1. Top Inverted L Bracket -->
+    <path d="M 0 0 H 240 V 150 H 208 V 32 H 0 Z" />
+
+    <!-- 2. S-R Monogram Master Path -->
+    <path d="
+      M 0 54
+      H 186
+      V 150
+      L 240 300
+      H 208
+      L 154 150
+      V 86
+      H 43.52
+      L 120.56 300
+      H 0
+      V 180
+      H 32
+      V 268
+      H 77.04
+      L 0 54
+      Z
+    " />
+  </g>
+</svg>

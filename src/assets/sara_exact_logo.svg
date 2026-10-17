@@ -1,0 +1,27 @@
+<svg viewBox="0 0 380 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#0047AB">
+    <!-- 1. Top Inverted L -->
+    <path d="M 30 0 H 370 V 150 H 310 V 36 H 30 Z" />
+    
+    <!-- 2. S-R Monogram Continuous Geometry -->
+    <path d="
+      M 30 62
+      H 258
+      V 150
+      H 310
+      L 367 300
+      H 307
+      L 250 150
+      V 98
+      H 104
+      L 181 300
+      H 0
+      V 200
+      H 68
+      V 264
+      H 105
+      L 30 62
+      Z
+    " />
+  </g>
+</svg>

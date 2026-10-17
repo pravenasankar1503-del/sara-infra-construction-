@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background transparent -->
+  <g fill="#0047AB">
+    <!-- 1. Top Inverted L -->
+    <polygon points="110,42 318,42 318,196 280,196 280,80 110,80" />
+    
+    <!-- 2. Second bar and middle vertical arm -->
+    <polygon points="110,106 250,106 250,196 212,196 212,144 123,144 110,106" />
+
+    <!-- 3. Slanted spine of S -->
+    <polygon points="110,106 148,106 193,320 155,320" />
+
+    <!-- 4. Diagonal leg of R -->
+    <polygon points="242,196 280,196 325,358 287,358" />
+
+    <!-- 5. Bottom-left hook of S -->
+    <polygon points="74,250 112,250 112,320 155,320 193,320 193,358 74,358" />
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 320 380" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+  <g fill="#004593">
+    <!-- Top Inverted L Bracket -->
+    <path d="M 46 24 H 284 V 178 H 246 V 62 H 46 Z" />
+    
+    <!-- Second Bar + Middle Vertical + Slanted Leg of R -->
+    <path d="M 46 88 H 214 V 178 L 278 340 H 240 L 176 178 V 126 H 92 Z" />
+
+    <!-- Slanted Spine of S + Bottom Hook -->
+    <path d="M 46 88 L 92 88 L 192 340 H 12 V 228 H 50 V 302 H 142 L 46 88 Z" />
+  </g>
+</svg>

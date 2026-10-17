@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 400" width="380" height="400">
+  <g fill="#004494">
+    <!-- 1. Top Inverted L -->
+    <path d="M 104 42 H 316 V 196 H 278 V 80 H 104 Z" />
+    
+    <!-- 2. Second horizontal bar + middle vertical arm + diagonal leg (R shape) -->
+    <path d="
+      M 104 106
+      H 246
+      V 196
+      L 310 358
+      H 272
+      L 210 196
+      V 144
+      H 142
+      Z
+    " />
+
+    <!-- 3. S shape (Slanted spine + bottom hook) -->
+    <path d="
+      M 104 106
+      L 142 106
+      L 226 320
+      V 358
+      H 70
+      V 246
+      H 108
+      V 320
+      H 188
+      L 104 106
+      Z
+    " />
+  </g>
+</svg>

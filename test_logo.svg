@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="white"/>
+  <!-- Top inverted L -->
+  <path d="M 78 48 H 328 V 210 H 290 V 86 H 78 Z" fill="#004593"/>
+  <!-- S and R body -->
+  <path d="
+    M 78 116
+    H 254
+    V 210
+    H 290
+    L 340 360
+    H 298
+    L 252 222
+    H 216
+    V 154
+    H 130
+    L 182 320
+    H 182
+    V 360
+    H 60
+    V 256
+    H 104
+    V 320
+    H 140
+    L 78 116
+    Z
+  " fill="#004593"/>
+</svg>
