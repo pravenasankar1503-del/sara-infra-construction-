@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+  base: '/sara-infra-construction/',
+    
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
