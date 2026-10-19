@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Project } from '../types';
-import { MapPin, Calendar, Maximize2, Ruler, ArrowRight, ExternalLink } from 'lucide-react';
+import { Calendar, Maximize2, Ruler, ArrowRight, ExternalLink } from 'lucide-react';
 import { IMAGES } from '../assets/images';
 
 interface ProjectsSectionProps {
@@ -14,9 +14,9 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
   const projects: Project[] = [
     {
       id: 'proj-1',
-      title: 'The Azure Horizon Cantilever Villa',
+      title: 'Residential Villa',
       category: 'Residential',
-      location: 'East Coast Sanctuary, ECR Corridor',
+      location: '',
       area: '14,200 sq.ft.',
       year: '2025',
       duration: '14 Months',
@@ -33,9 +33,9 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
     },
     {
       id: 'proj-2',
-      title: 'Nexus Commercial Tower & Corporate Atrium',
+      title: 'Commercial Complex',
       category: 'Commercial',
-      location: 'Central Financial & IT Expressway',
+      location: '',
       area: '280,000 sq.ft.',
       year: '2025',
       duration: '22 Months',
@@ -52,9 +52,9 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
     },
     {
       id: 'proj-3',
-      title: 'The Ironworks Heritage Revival & Modern Glass Pavilion',
+      title: 'Renovation & Remodel',
       category: 'Renovation',
-      location: 'Old Port Historic Quarter',
+      location: '',
       area: '38,500 sq.ft.',
       year: '2024',
       duration: '9 Months',
@@ -124,7 +124,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       if (project.category === 'Residential') target.src = '/images/residential_villa_night_1791816705034.jpg';
-                      else if (project.category === 'Commercial') target.src = '/images/service_commercial_1791731244556.jpg';
+                      else if (project.category === 'Commercial') target.src = '/images/simple_commercial_building_1792385686657.jpg';
                       else if (project.category === 'Renovation') target.src = '/images/simple_house_renovation_1791819096728.jpg';
                     }}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -143,19 +143,12 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
                   >
                     <Maximize2 className="w-4 h-4" />
                   </button>
-
-                  <div className="absolute bottom-4 left-4 right-4 text-white">
-                    <div className="flex items-center gap-2 text-xs text-slate-300 font-medium mb-1">
-                      <MapPin className="w-3.5 h-3.5 text-[#C5A059]" />
-                      <span>{project.location}</span>
-                    </div>
-                    <h3 className="text-xl font-bold font-['Outfit'] tracking-tight">
-                      {project.title}
-                    </h3>
-                  </div>
                 </div>
 
                 <div className="p-6">
+                  <h3 className="text-xl font-bold font-['Outfit'] text-[#092347] tracking-tight mb-2">
+                    {project.title}
+                  </h3>
                   <p className="text-xs text-slate-600 leading-relaxed mb-4">
                     {project.description}
                   </p>
@@ -219,8 +212,6 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
 
             <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#C5A059] mb-2">
               <span>{activeModalProject.category} Portfolio</span>
-              <span>·</span>
-              <span className="text-slate-500">{activeModalProject.location}</span>
             </div>
 
             <h3 className="text-2xl sm:text-3xl font-black text-[#092347] font-['Outfit'] mb-4">
@@ -234,7 +225,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onSelectProjec
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   if (activeModalProject.category === 'Residential') target.src = '/images/residential_villa_night_1791816705034.jpg';
-                  else if (activeModalProject.category === 'Commercial') target.src = '/images/service_commercial_1791731244556.jpg';
+                  else if (activeModalProject.category === 'Commercial') target.src = '/images/simple_commercial_building_1792385686657.jpg';
                   else if (activeModalProject.category === 'Renovation') target.src = '/images/simple_house_renovation_1791819096728.jpg';
                 }}
                 className="w-full h-full object-cover"
