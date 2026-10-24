@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-  base: '/sara-infra-construction/',
+  base: process.env.GITHUB_ACTIONS ? '/sara-infra-construction/' : '/',
     
     plugins: [react(), tailwindcss()],
     resolve: {
