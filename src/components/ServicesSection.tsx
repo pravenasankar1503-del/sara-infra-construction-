@@ -187,6 +187,9 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
 
                 {/* Card Body & Architectural Specs */}
                 <div className="p-6 sm:p-7">
+                  <div className="text-[10px] text-slate-400 italic mb-2 tracking-tight">
+                    *Image slightly modified
+                  </div>
                   <div className="mb-4">
                     <h3 className="text-2xl font-black text-[#092347] font-['Outfit'] tracking-tight">
                       {service.title}
@@ -335,18 +338,21 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
               {selectedServiceForModal.title} Engineering Specifications
             </h3>
 
-            <div className="rounded-lg overflow-hidden h-52 mb-6">
+            <div className="rounded-lg overflow-hidden h-52 mb-2">
               <img
                 src={selectedServiceForModal.image}
                 alt={selectedServiceForModal.title}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   if (selectedServiceForModal.id === 'residential') target.src = '/images/residential_villa_night_1791816705034.jpg';
-                  if (selectedServiceForModal.id === 'commercial') target.src = '/images/service_commercial_1791731244556.jpg';
+                  if (selectedServiceForModal.id === 'commercial') target.src = '/images/simple_commercial_building_1792385686657.jpg';
                   if (selectedServiceForModal.id === 'renovation') target.src = '/images/simple_house_renovation_1791819096728.jpg';
                 }}
                 className="w-full h-full object-cover"
               />
+            </div>
+            <div className="text-[10px] text-slate-400 italic mb-5 tracking-tight">
+              *Image slightly modified
             </div>
 
             <p className="text-sm text-slate-700 leading-relaxed mb-6">

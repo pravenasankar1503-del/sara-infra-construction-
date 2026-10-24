@@ -183,6 +183,12 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onRequestQuote })
               <ArrowDown className="w-3.5 h-3.5 animate-bounce text-[#C5A059]" />
             </a>
           </div>
+
+          <div className="text-center mt-2">
+            <span className="text-[10px] text-slate-400/70 italic tracking-tight">
+              *Image slightly modified
+            </span>
+          </div>
         </div>
       </section>
     </>

@@ -13,10 +13,10 @@ export const ProcessSection: React.FC = () => {
     },
     {
       num: '02',
-      title: 'BIM 3D Modeling & Structural Engineering',
-      desc: 'Finite element analysis (FEA) and clash detection in Revit BIM. Every beam dimension, rebar bend schedule, and MEP routing is simulated to the millimeter.',
+      title: 'Structural Design & Engineering Analysis',
+      desc: 'Finite element analysis (FEA) and structural clash detection. Every beam dimension, rebar bend schedule, and MEP routing is simulated to the millimeter.',
       duration: 'Weeks 3 – 5',
-      standards: 'LOD 400 Building Information Modeling',
+      standards: 'High-Precision Structural Engineering & Analysis',
       icon: <Box className="w-5 h-5 text-[#C5A059]" />,
     },
     {

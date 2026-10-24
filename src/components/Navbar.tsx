@@ -64,12 +64,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation }) => {
               >
                 Services
               </a>
-              <a
-                href="#projects"
-                className="whitespace-nowrap shrink-0 hover:text-[#092347] transition-colors relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-[#C5A059] hover:after:w-full after:transition-all"
-              >
-                Landmark Projects
-              </a>
+
               <a
                 href="#methodology"
                 className="whitespace-nowrap shrink-0 hover:text-[#092347] transition-colors relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-[#C5A059] hover:after:w-full after:transition-all"
@@ -161,13 +156,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation }) => {
               >
                 Services (Residential, Commercial, Renovation)
               </a>
-              <a
-                href="#projects"
-                onClick={() => setMobileMenuOpen(false)}
-                className="py-1 hover:text-[#092347]"
-              >
-                Landmark Projects
-              </a>
+
               <a
                 href="#methodology"
                 onClick={() => setMobileMenuOpen(false)}

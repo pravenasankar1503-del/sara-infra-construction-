@@ -7,7 +7,6 @@ import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ServicesSection } from './components/ServicesSection';
-import { ProjectsSection } from './components/ProjectsSection';
 import { ProcessSection } from './components/ProcessSection';
 import { CostEstimator } from './components/CostEstimator';
 import { ContactSection } from './components/ContactSection';
@@ -51,10 +50,7 @@ export default function App() {
         {/* 3. Three Organized Service Sections Side-by-Side: Residential, Commercial, Renovation */}
         <ServicesSection onSelectService={handleSelectService} />
 
-        {/* 4. Filterable Landmark Case Studies & Architectural Portfolio */}
-        <ProjectsSection />
-
-        {/* 5. 5-Stage Engineering Methodology */}
+        {/* 4. 5-Stage Engineering Methodology */}
         <ProcessSection />
 
         {/* 6. Interactive Cost & Scope Estimator */}

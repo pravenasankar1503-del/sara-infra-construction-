@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-[#051326] text-slate-300 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Brand Col (2 cols) */}
           <div className="lg:col-span-2 space-y-4">
             <SaraLogo size="lg" variant="light" />
@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Quick Links / Specialist Services */}
           <div className="space-y-3">
             <div className="text-xs font-bold uppercase tracking-widest text-[#C5A059]">
               Specialist Services
@@ -73,36 +73,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#methodology" className="hover:text-white transition-colors">
-                  BIM 3D Modeling (LOD 400)
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Portfolio & Case Studies */}
-          <div className="space-y-3">
-            <div className="text-xs font-bold uppercase tracking-widest text-[#C5A059]">
-              Case Studies
-            </div>
-            <ul className="space-y-2 text-xs text-slate-400">
-              <li>
-                <a href="#projects" className="hover:text-white transition-colors">
-                  Azure Horizon Villa (ECR)
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="hover:text-white transition-colors">
-                  Nexus Commercial Tower
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="hover:text-white transition-colors">
-                  The Ironworks Glass Retrofit
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="hover:text-white transition-colors">
-                  Serenity Ridge Estate
+                  Engineering Methodology
                 </a>
               </li>
             </ul>
