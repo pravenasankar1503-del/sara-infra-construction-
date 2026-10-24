@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, ArrowUp, Globe } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, ArrowUp } from 'lucide-react';
 import { SaraLogo } from './SaraLogo';
 
 export const Footer: React.FC = () => {
@@ -136,17 +136,8 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#C5A059] shrink-0" />
-                <span>projects@sarainfra.com</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Globe className="w-4 h-4 text-[#C5A059] shrink-0" />
-                <a
-                  href="https://www.sarainfra.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#C5A059] hover:underline font-semibold"
-                >
-                  sarainfra.com
+                <a href="mailto:sarainfraconstruction@gmail.com" className="hover:text-white transition-colors">
+                  sarainfraconstruction@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-2">
@@ -161,8 +152,6 @@ export const Footer: React.FC = () => {
         <div className="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div className="flex flex-wrap items-center gap-4">
             <span>© {new Date().getFullYear()} Sara Infra Construction. All rights reserved.</span>
-            <span>·</span>
-            <span className="text-[#C5A059] font-semibold">sarainfra.com</span>
             <span>·</span>
             <span className="text-slate-300 font-semibold">CEO: P. Sankar</span>
             <span>·</span>
